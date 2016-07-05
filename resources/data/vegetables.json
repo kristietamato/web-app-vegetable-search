@@ -266,7 +266,7 @@
     "storage_use": "You can store collards as you would any other leafy green; put the kale in a plastic bag and store it in the refrigerator. It should last about 1 week."
   },
   {
-    "id": "15_cucumbers",
+    "id": "15_cucumber",
     "name": "Cucumbers",
     "description": "Cucumbers are a warm-season vegetable planted outside in the ground no earlier than 2 weeks after last spring frost date. Most varieties will grow in any amount of space, thanks to the plant's ability to climb. The most common varieties of slicing cucumbers have sprawling vines with large green leaves and curling tendrils. The growth of these plants is fast, and the crop yield is abundant if you care for them properly.",
     "optimal_sun": "Full Sun(at least 6 hours a day)",
@@ -475,7 +475,7 @@
     "storage_use": "Make sure you brush off any soil clinging to the potatoes, then store them in a cool, dry, dark place. The ideal temperature for storage is 35 to 40°F. Do not store potatoes with apples; their ethylene gas will cause potatoes to spoil."
   },
   {
-    "id": "26_pumpkins",
+    "id": "26_pumpkin",
     "name": "Pumpkins",
     "description": "Whether you use them for carving or cooking, pumpkins do not disappoint. Note that pumpkins do require a lot of food and a long growing season (generally from 75 to 100 frost-free days) so you need to plant them by late May in northern locations to early July in extremely southern states. Do not plant this tender vegetable until all danger of frost has passed and the soil is warmed as the seedlings will be injured or rot. (See the Almanac.com/Gardening page for frost dates.) That said, pumpkins are easy to maintain if you have the space.",
     "optimal_sun": "Full Sun(at least 6 hours a day)",
@@ -494,7 +494,7 @@
     "storage_use": "Pumpkins should be cured in the sun for about a week to toughen the skin and then stored in a cool, dry bedroom or cellar—anywhere around 55ºF."
   },
   {
-    "id": "27_radishes",
+    "id": "27_radish",
     "name": "Radishes",
     "description": "Radishes are a hardy, cool-season vegetable that can produce many crops each season due to its rapid days to maturity. Radishes can be planted in both the spring and the fall, but growing should be suspended in the warmer months. They are a very easy vegetable to grow.",
     "optimal_sun": "Full Sun(at least 6 hours a day)",
@@ -570,7 +570,7 @@
     "storage_use": "Fresh summer squash can be stored in the refrigerator for up to ten days. Freezing Summer squash: Wash it, cut off the ends, and slice or cube the squash. Blanch for three minutes, then immediately immerse in cold water and drain. Pack in freezer containers and freeze."
   },
   {
-    "id": "31_chard",
+    "id": "31_swiss_chard",
     "name": "Chard",
     "description": "Chard is a member of the beet family that does well in both cool and warm temperatures. It can be cooked or used raw in salads and is high in vitamins A and C.",
     "optimal_sun": "Full-Part Sun",
@@ -589,7 +589,7 @@
     "storage_use": "You can cut the ribs off the chard leaves and cook them like asparagus. The rest of the leaves are eaten as greens. You can cook them like spinach or eat them raw."
   },
   {
-    "id": "32_turnips",
+    "id": "32_turnip",
     "name": "Turnips",
     "description": "Turnips are biennials usually grown as annuals. Although turnips are more of a staple in European kitchens, many southern gardeners like to grow them for their greens. Turnips take up to two months to mature. Turnips grow best in a temperate climate but can endure light frost. Fall crops are usually sweeter and more tender than spring crops—and pests are less of a problem.",
     "optimal_sun": "Full Sun(at least 6 hours a day)",
