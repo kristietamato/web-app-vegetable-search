@@ -1,4 +1,4 @@
-Vegetable Directory App
+Vegetable Search App
 
 Created by Kristie Nguyen
 
