@@ -5,11 +5,19 @@
   <title>Vegetable Search App</title>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <script type="text/javascript" src="js/controllers.js"></script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div ng-controller="MyController">
-    <h1>Test</h1>
+  <div class="main" ng-controller="MyController">
+    <ul>
+      <li class="vegetable cf" ng-repeat="item in vegetables">
+        <img ng-src="resources/images/{{item.id}}.jpg" alt="Image of {{item.name}}">
+        <div class="info">
+          <h2>{{item.name}}</h2>
+          <p>{{item.description}}</p>
+        </div>
+      </li>
+    </ul>
   </div>
-
 </body>
 </html>

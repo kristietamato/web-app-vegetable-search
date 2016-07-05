@@ -1,5 +1,7 @@
 var myApp = angular.module('myApp', []);
 
-myApp.controller('MyController', function MyController($scope) {
-    
-});
+myApp.controller('MyController', ['$scope', '$http', function($scope, $http) {
+  $http.get('resources/data/vegetables.json').success(function(data) {
+    $scope.vegetables = data;
+  });
+}]);
