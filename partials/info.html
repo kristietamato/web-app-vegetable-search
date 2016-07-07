@@ -1,5 +1,7 @@
 <section class="vegetableinfo">
   <div class="artist cf" ng-model="vegetables">
+    <a href="#/info/{{ prevItem }}" class="btn btn-left">&lt;</a>
+    <a href="#/info/{{ nextItem }}" class="btn btn-left">&gt;</a>
     <h1>{{ vegetables[whichItem].name }}</h1>
     <div class="info">
       <h3>{{ artists[whichItem].Id }}</h3>
