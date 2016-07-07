@@ -258,6 +258,10 @@ a.small {
   margin: 0;
   padding: 10px 10px 0 10px;
   border-bottom: 1px dotted black;
+  opacity: .9;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
 }
 
 .vegetablelist a {
@@ -267,6 +271,11 @@ a.small {
 
 .vegetablelist li:hover {
   background: #FDF6E3;
+  opacity: 1;
+  -webkit-transition: scale(1.2);
+  -moz-transition: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .vegetable img {
@@ -316,6 +325,16 @@ a.small {
   border-radius: 20px;
 }
 
-.vegetableinfo .btn {
+.vegetable.ng-enter.ng-enter-active,
+.vegetable.ng-leave {
+  opacity: 1;
+  height: 80px;
+  overflow: hidden;
+}
 
+.vegetable.ng-leave.ng-leave-active,
+.vegetable.ng-enter {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
 }

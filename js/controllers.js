@@ -1,4 +1,4 @@
-var vegetableControllers = angular.module('vegetableControllers', []);
+var vegetableControllers = angular.module('vegetableControllers', ['ngAnimate']);
 
 vegetableControllers.controller('ListController', ['$scope', '$http', function($scope, $http) {
   $http.get('resources/data/vegetables.json').success(function(data) {

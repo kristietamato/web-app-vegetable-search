@@ -14,8 +14,8 @@
       <input type="radio"  ng-model="direction" name="direction" value="reverse">
     </label>
   </div>
-  <ul class="vegetablelist">
-    <li class="vegetable cf" ng-repeat="item in vegetables | filter: query | orderBy: vegetableOrder:direction">
+  <ul class="vegetablelist" ng-show="query">
+    <li ng-animate="'animate'" class="vegetable cf" ng-repeat="item in vegetables | filter: query | orderBy: vegetableOrder:direction">
       <a href="#/info/{{ vegetables.indexOf(item) }}">
         <img ng-src="resources/images/{{item.id}}.jpg" alt="Image of {{ item.name }}">
         <div class="info">
