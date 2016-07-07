@@ -16,10 +16,12 @@
   </div>
   <ul class="vegetablelist">
     <li class="vegetable cf" ng-repeat="item in vegetables | filter: query | orderBy: vegetableOrder:direction">
-      <img ng-src="resources/images/{{item.id}}.jpg" alt="Image of {{item.name}}">
-      <div class="info">
-        <h2>{{item.name | uppercase}}</h2>
-      </div>
+      <a href="#/info/{{ vegetables.indexOf(item) }}">
+        <img ng-src="resources/images/{{item.id}}.jpg" alt="Image of {{ item.name }}">
+        <div class="info">
+          <h2>{{item.name | uppercase}}</h2>
+        </div>
+      </a>
     </li>
   </ul>
 </section>

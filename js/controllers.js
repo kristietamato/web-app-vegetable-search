@@ -6,3 +6,10 @@ vegetableControllers.controller('ListController', ['$scope', '$http', function($
     $scope.vegetableOrder = 'name';
   });
 }]);
+
+vegetableControllers.controller('InfoController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+  $http.get('resources/data/vegetables.json').success(function(data) {
+    $scope.vegetables = data;
+    $scope.whichItem = $routeParams.itemId;
+  });
+}]);
