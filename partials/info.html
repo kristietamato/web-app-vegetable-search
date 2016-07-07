@@ -1,0 +1,40 @@
+<section class="vegetableinfo">
+  <div class="artist cf" ng-model="vegetables">
+    <h1>{{ vegetables[whichItem].name }}</h1>
+    <div class="info">
+      <h3>{{ artists[whichItem].Id }}</h3>
+      <img ng-src="resources/images/{{vegetables[whichItem].id}}.jpg">
+      <h4>DESCRIPTION</h4>
+      <div class="bio">{{ vegetables[whichItem].description }}</div>
+      <h4>OPTIMAL SUN</h4>
+      <div class="bio">{{ vegetables[whichItem].optimal_sun }}</div>
+      <h4>OPTIMAL SOIL</h4>
+      <div class="bio">{{ vegetables[whichItem].optimal_soil }}</div>
+      <h4>PLANTING CONSIDERATIONS</h4>
+      <div class="bio">{{ vegetables[whichItem].planting_considerations }}</div>
+      <h4>WHEN TO PLANT</h4>
+      <div class="bio">{{ vegetables[whichItem].when_to_plant }}</div>
+      <h4>GROWING FROM SEED</h4>
+      <div class="bio">{{ vegetables[whichItem].growing_from_seed }}</div>
+      <h4>TRANSPLANTING</h4>
+      <div class="bio">{{ vegetables[whichItem].transplanting }}</div>
+      <h4>SPACING</h4>
+      <div class="bio">{{ vegetables[whichItem].spacing }}</div>
+      <h4>WATERING</h4>
+      <div class="bio">{{ vegetables[whichItem].watering }}</div>
+      <h4>FEEDING</h4>
+      <div class="bio">{{ vegetables[whichItem].feeding }}</div>
+      <h4>OTHER CARE</h4>
+      <div class="bio">{{ vegetables[whichItem].other_care }}</div>
+      <h4>DISEASES</h4>
+      <div class="bio">{{ vegetables[whichItem].diseases }}</div>
+      <h4>PESTS</h4>
+      <div class="bio">{{ vegetables[whichItem].pests }}</div>
+      <h4>HARVESTING</h4>
+      <div class="bio">{{ vegetables[whichItem].harvesting }}</div>
+      <h4>STORAGE USE</h4>
+      <div class="bio">{{ vegetables[whichItem].storage_use }}</div>
+    </div>
+  </div>
+  <a href="#/list"> &laquo; Back to search</a>
+</section>
