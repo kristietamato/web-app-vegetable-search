@@ -74,11 +74,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 html {
   background-image: url(../resources/images/tomato-bg.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-attachment: fixed;
   background-color: #023E54;
-  min-height: 100%;
-  height: auto;
 }
 
 body  {
@@ -210,10 +208,6 @@ a.small {
   outline: 0;
 }
 
-.pbm {
-  padding-bottom: 10px;
-}
-
 .search .formgroup input {
   border: 1px solid rgba(0,0,0,0.3);
   display: inline;
@@ -340,4 +334,14 @@ a.small {
   opacity: 0;
   height: 0;
   overflow: hidden;
+}
+
+/* Helper Css */
+
+.pbm {
+  padding-bottom: 10px;
+}
+
+.centered {
+  text-align: center;
 }
